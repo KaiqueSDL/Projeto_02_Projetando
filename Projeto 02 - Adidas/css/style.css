@@ -1,0 +1,96 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+
+/*Header*/
+.logo img{
+    width: 120px;
+    background-size: cover;
+    position: absolute;
+    margin: 10px  0 0 40px;
+}
+
+.links ul li{
+    float: right;
+    display: inline-block;
+    padding-top:40px ;
+}
+.links ul li a{
+    font-weight: 300;
+    margin-right: 50px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+}
+.links ul li a:hover{
+    transition: 0.5s;
+    background-color: #fd4a47;
+}
+
+
+/* Conteudo principal */
+.main{
+    background-image: linear-gradient(rgba(42,58,74,0.65), rgba(42,58,74,0.95)) , url("https://images.solecollector.com/complex/images/c_crop,h_3173,w_5100,x_0,y_0/c_fill,dpr_2.0,f_auto,fl_lossy,q_auto,w_680/ixlioukpqqzz8przmhqi/adidas-store-george-floyd-protests");
+
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
+/* Content */
+
+.content{
+    position: relative;
+    top: 23rem;
+    left: 12rem;
+    max-width: 400px;
+}
+
+.content h1{
+    color: white;
+    font-size: 140px;
+    font-weight: 800;
+    
+    font-family: 'Raleway', sans-serif;
+}
+.content p {
+    font-family: 'Raleway', sans-serif;
+
+}
+.content :first-child {
+    border-left: solid 4px #fd4a47;
+    padding-left: 20px;
+    color: white;
+    font-size: 18px;
+}
+
+.content p{
+    margin-bottom: 7px;
+    color: white;
+    font-size: 18px;
+}
+
+.btn{
+    max-width: 200px;
+    background-color: #fd4a47;
+    padding: 12px 10px;
+    margin-top: 20px;
+    
+}
+.btn a{
+ 
+    text-decoration: none;
+    font-size: 10px;
+}
